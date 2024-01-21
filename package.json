@@ -1,21 +1,21 @@
 {
-  "name": "parcel-pack",
+  "name": "async-await",
   "version": "1.0.0",
-  "description": "parcel-pack",
+  "description": "async-await",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-pack/"
+    "build": "parcel build src/*.html --public-url /async-await/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Allovallo/parcel-pack.git"
+    "url": "git+https://github.com/Allovallo/async-await.git"
   },
   "author": "grossco",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Allovallo/parcel-pack/issues"
+    "url": "https://github.com/Allovallo/async-await/issues"
   },
-  "homepage": "https://github.com/Allovallo/parcel-pack#readme",
+  "homepage": "https://github.com/Allovallo/async-await#readme",
   "devDependencies": {
     "parcel": "^2.11.0",
     "parcel-reporter-clean-dist": "^1.0.4",
