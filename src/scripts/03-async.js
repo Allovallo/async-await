@@ -1,4 +1,4 @@
-async function getFruit(name) {
+function getFruit(name) {
   const fruits = {
     strawberry: '🍓',
     kiwi: '🥝 ',
@@ -7,4 +7,12 @@ async function getFruit(name) {
   return Promise.resolve(fruits[name]);
 }
 
-getFruit().then(console.log());
+function makeSmoothie() {
+  getFruit('apple').then(apple => {
+    console.log(apple);
+
+    getFruit('kiwi').then(kiwi => console.log(kiwi));
+  });
+}
+
+makeSmoothie();
